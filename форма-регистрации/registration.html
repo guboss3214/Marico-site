@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="registr.css">
+</head>
+<body>
+    <a class="back" onclick="back()">
+        <svg class="button-back" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5 11.8814L9.21875 17.2594M20 11.8814H5H20ZM5 11.8814L9.21875 7L5 11.8814Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>     
+    </a>
+    <div class="form">
+        <h1 class="form-title">Sign up</h1>
+        <h2 class="form-subtitle">Fill all field for create an account.</h2>
+        <div class="inputs">
+            <div class="form-group">
+                <div class="input">
+                    <input type="text" placeholder=" " id="user" value="">
+                    <label > Username</label>
+                </div>
+                <div class="input">
+                    <input type="password" placeholder=" " class="password" value="">
+                    <label>Password</label>
+                </div>
+            </div>
+            <div class="form-group-2">
+                <div class="input">
+                    <input type="email" placeholder=" " style="margin-bottom: 25px;" class="email" value="">
+                    <label>Email Address</label>
+                </div>
+                <div class="button">
+                    <button id="button">Sign Up</button>
+                </div>
+            </div>
+        </div>
+        <h2>Already have an account? <a href="../login/login.html">Please Log in.</a></h2>
+    </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

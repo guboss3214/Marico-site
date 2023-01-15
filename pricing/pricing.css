@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,700&family=Poppins:wght@100&display=swap');
+@import url(../css/navbar.css);
+@import url(../css/navbar-foot.css);
+@import url(../css/adaptive.css);
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Poppins';
+}
+
+a{
+    color: white;
+}
+
+.plan{
+    padding-top: 100px;
+}
+
+.plan .container{
+    text-align: center;
+}
+
+.plan h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 112px;
+}
+
+.plan-blocks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.plan-blocks .block{
+    width: 500px;
+    height: 770px;
+    text-align: left;
+    padding: 15px 20px 10px 20px;
+    background: #131313;
+    border-radius: 15px;
+    border: 1px solid #707070;
+    position: relative;
+}
+
+.plan-blocks .blue{
+    background-color: #3C82F4;
+}
+
+.block h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.block h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;
+    color: #B4B1B1;
+}
+
+.price{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.block .price h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.block .price h1 span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #B4B1B1;
+}
+
+.block .price a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    text-decoration: underline;
+    color: #B4B1B1;
+}
+
+.block h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 35px;
+}
+
+.center{
+    text-align: center;
+}
+
+.center span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #B4B1B1;
+}
+
+.Key h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 12px;
+}
+
+.Key .flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.Key .flex svg{
+    margin-right: 10px;
+}
+
+.Key .flex h3{
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.block-button{
+    display: flex;
+    justify-content: center;
+    align-items: bottom;
+}
+
+.block-button{
+    display: flex;
+    align-items: center;
+}
+
+.block .button{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    background: #131313;
+    padding: 15px 30px;
+    text-align: center;
+    border-radius: 15px;
+    border: 3.5px solid #4681E7;
+    position: absolute;
+    bottom: 10px;
+}
+
+.block .white{
+    background: #FFFFFF;
+    color: #3C82F4;
+    font-weight: 800;
+}
+
+.start{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.start img{
+    width: 100px;
+}
+
+.start h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 150px;
+}
+
+.start h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 64px;
+}
+
+.start .button{
+    padding: 18px 30px;
+    background-color: #326CF9;
+    border-radius: 10px;
+}
+
+.start .button:hover{
+    background-color: #053db6;
+    transition: 150ms;
+}
+
+.info{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.info .circle{
+    width: 28.6px;
+    height: 28.6px;
+    background: #0FC65C;
+    border-radius: 50%;
+}
+
+.info h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 57px;
+    color: #707070;
+}
+
+@media (max-width:1025px){
+    .plan-blocks .block{
+        height: 400px;
+    }
+    .none{
+        display: none;
+    }
+    .plan-blocks .block{
+        height: 500px;
+    }
+}
+
+@media (max-width:770px){
+    .plan h1{
+        font-size: 34px;
+    }
+    .plan-blocks{
+        display: flex;
+        flex-direction: column;
+    }
+    .plan-blocks .block{
+        height: 400px;
+        width: 319px;
+    }
+    .start h1{
+        font-size: 34px;
+    }
+    .start h2{
+        font-size: 26px;
+    }
+}
+
+@media (max-width:321px){
+    .plan h1{
+        line-height: 50px;
+    }
+    .plan-blocks .block{
+        height: 400px;
+        width: 270px;
+    }
+    .start h2{
+        font-size: 20px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    .info{
+        margin-top: 20px;
+    }
+}

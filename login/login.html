@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
+</head>
+<body>
+    <a class="back" onclick="back()">
+        <svg class="button-back" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5 11.8814L9.21875 17.2594M20 11.8814H5H20ZM5 11.8814L9.21875 7L5 11.8814Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>    
+    </a>
+    <div class="form">
+        <h1 class="form-title">Log in</h1>
+        <h2 class="form-subtitle">Login into existing account.</h2>
+        <div class="inputs">
+            <div class="input">
+                <input type="text" placeholder=" " id="user">
+                <label>Username</label>
+            </div>
+            <div class="input">
+                <input type="password" placeholder=" " class="pass">
+                <label>Password</label>
+            </div>
+        </div>
+        <div class="button" style="display: flex; justify-content: center;">
+            <button class="login">Log In</button>
+        </div>
+        <h2>Don’t have an account? <a href="../форма-регистрации/registration.html">Create One.</a></h2>
+    </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>

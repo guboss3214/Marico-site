@@ -1,0 +1,88 @@
+header{
+    height: 110px;
+}
+
+.container{
+    margin: 0px 140px 0 160px;
+    padding-top: 56px;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu{
+    display: flex;
+    gap: 200px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+}
+
+.container span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 37px;
+    line-height: 56px;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 40px;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #707070;;
+}
+
+ul li a:hover{
+    color: #3C82F4;
+    transition: 150ms;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.profile a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #707070;
+}
+
+.container .profile .hover:hover{
+    color: #326CF9;
+}
+
+.profile .button{
+    background-color: #306EF7;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 8px;
+}
+
+.profile .button:hover{
+    color: white;
+    background-color: #053db6;
+}

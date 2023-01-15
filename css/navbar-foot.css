@@ -1,0 +1,9 @@
+.container .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .navbar li a{
+    font-size: 28px;
+}
